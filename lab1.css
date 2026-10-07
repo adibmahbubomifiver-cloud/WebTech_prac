@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: #222;
+    font-size: 14px;
+}
+
+.page {
+    width: 810px;
+    margin: 0 auto;
+    padding: 0 14px 20px;
+    background: #eeeeee;
+    border-left: 1px solid #222;
+    border-right: 1px solid #222;
+    min-height: 1180px;
+}
+
+/* Required information */
+
+.required {
+    margin: 0 0 12px;
+    padding-top: 2px;
+}
+
+.required span,
+h2 span,
+.form-row label span {
+    color: red;
+}
+
+/* Steps */
+
+.steps {
+    margin: 0 0 12px;
+}
+
+/* Section headings */
+
+h2 {
+    margin: 8px 0 5px;
+    color: red;
+    font-size: 20px;
+}
+
+/* Form rows */
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.form-row > label {
+    width: 250px;
+    text-align: right;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="tel"],
+.form-row select {
+    width: 275px;
+    height: 23px;
+    border: 1px solid #999;
+    background: white;
+    padding: 2px 5px;
+}
+
+.form-row input[type="text"]:focus,
+.form-row input[type="email"]:focus,
+.form-row input[type="tel"]:focus {
+    outline: none;
+    border: 2px solid #5aa9e6;
+}
+
+/* State and country */
+
+.form-row select {
+    width: 148px;
+}
+
+.form-row select.country {
+    width: 342px;
+}
+
+/* Radio buttons */
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radio-group input {
+    margin: 0 0 0 3px;
+}
+
+/* Amount */
+
+.amount-note {
+    width: 250px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+.inline-option {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.inline-option input {
+    margin: 0;
+}
+
+.small-input {
+    width: 62px !important;
+    height: 22px !important;
+}
+
+/* Additional information */
+
+.description {
+    margin: 0 0 5px;
+}
+
+/* Checkbox rows */
+
+.checkbox-row {
+    margin: 5px 0;
+}
+
+.checkbox-row input {
+    margin: 0 12px 0 2px;
+    vertical-align: middle;
+}
+
+/* Comments */
+
+.comments-row {
+    align-items: flex-start;
+    margin-top: 12px;
+}
+
+.comments-row label {
+    padding-top: 3px;
+}
+
+.comments-row small {
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+textarea {
+    width: 370px;
+    height: 82px;
+    border: 1px solid #999;
+    resize: both;
+}
+
+/* Contact checkboxes */
+
+.checkbox-group {
+    line-height: 22px;
+}
+
+.checkbox-group input {
+    margin-right: 12px;
+}
+
+/* Newsletter */
+
+.newsletter {
+    color: #777;
+    margin: 10px 0 4px;
+}
+
+/* Horizontal line */
+
+hr {
+    border: 0;
+    border-top: 4px solid white;
+    margin: 8px 0 5px;
+}
+
+/* Buttons */
+
+.buttons {
+    text-align: center;
+    margin: 4px 0 15px;
+}
+
+.buttons input {
+    padding: 2px 12px;
+    border: 1px solid #888;
+    border-radius: 12px;
+    background: linear-gradient(#ffffff, #dddddd);
+    cursor: pointer;
+}
+
+.buttons input:hover {
+    background: #dddddd;
+}
+
+/* Bottom information */
+
+.security {
+    margin: 8px 0;
+    font-size: 13px;
+}
+
+.support {
+    margin-top: 18px;
+    color: #777;
+    font-size: 13px;
+}
